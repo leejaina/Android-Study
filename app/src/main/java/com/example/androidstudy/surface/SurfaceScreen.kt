@@ -3,6 +3,7 @@ package com.example.androidstudy.surface
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -49,6 +50,8 @@ fun SurfaceScreen(name: String) {
 //            modifier = Modifier.padding(8.dp)
 //        )
 //    }
+
+    //Button(){ }
 
     // 스텝 3: Surface의 shape도 설정해봅시다.
     Surface(
